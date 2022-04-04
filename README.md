@@ -1,8 +1,18 @@
 ### Project Setup
+1. Create a new repo with a .sql file and eventually a screenshot of the DB design from dbdiagram.io in it.
+2. DB should have at least four tables in it with multiple foreign keys for relationships between them.
+3. Three queries each for CRUD operations for your tables (Create, Read, Update, Delete)
+4. All create tables queries.
 
-NOTE: We do not do the dice rolling, rolling of the dice "happens".
-
-1. Double check that you have the following extensions installed:
-- AREPL for python.
-- Python Test Explorer for VSCode
-
+### GENRES
+---
+CREATE TABLE Genres ();
+CREATE TABLE Artists ();
+CREATE TABLE Music ();
+	
+  	
+---
+ALTER TABLE Genres
+ADD name varchar,
+ADD song varchar,
+ADD artists varchar;

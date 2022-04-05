@@ -7,3 +7,4 @@
 dbdiagram.io------
 
 
+<img width="1440" alt="Screen Shot 2022-04-04 at 4 16 42 PM" src="https://user-images.githubusercontent.com/98066630/161768033-f585549e-9d9a-41b6-bc58-aae63812ca68.png">

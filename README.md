@@ -4,15 +4,6 @@
 3. Three queries each for CRUD operations for your tables (Create, Read, Update, Delete)
 4. All create tables queries.
 
-### GENRES
----
-CREATE TABLE Genres ();
-CREATE TABLE Artists ();
-CREATE TABLE Music ();
-	
-  	
----
-ALTER TABLE Genres
-ADD name varchar,
-ADD song varchar,
-ADD artists varchar;
+dbdiagram.io------
+
+

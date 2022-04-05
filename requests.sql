@@ -21,6 +21,24 @@ CREATE TABLE Playlist ();
     ADD albums varchar, 
     ADD songs varchar;
 
+        --add artists
+        INSERT INTO artists(id,name,songs)
+        VALUES
+            (1,'Dolly','Jolene'),
+            (2,'ACDC','Thunderstruck'),
+            (3,'AAR','Why Worry');
+
+        INSERT INTO artists(id,name,songs)
+        VALUES
+            (4,'AJR','Bang')
+        
+        --delete artist
+        DELETE from artists
+        WHERE name = 'AAR';
+
+        --result
+        SELECT * from artists
+
 --altered/updated music table
     ALTER TABLE Music
     ADD id int primary key, 
@@ -28,6 +46,9 @@ CREATE TABLE Playlist ();
     ADD	record varchar, 
     ADD	album varchar, 
     ADD	genre varchar;
+
+        --add music
+        
 
 --altered/updated genre table
     ALTER TABLE Genres
